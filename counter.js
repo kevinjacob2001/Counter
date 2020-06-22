@@ -9,8 +9,10 @@ document.querySelector("#Increment").addEventListener("click", function () {
 })
 
 document.querySelector("#Decrement").addEventListener("click", function () {
+if(val>0){
     val--;
     document.querySelector("#field").textContent = val;
+}
 })
 
 document.querySelector("#reset").addEventListener("click", function () {
@@ -34,11 +36,7 @@ if(val>-1){
     }, 500)
 }
 }
+
 );
 
-document.querySelector("#reset").addEventListener("click",
-    function () {
-        val = 25;
-        document.querySelector("#field").textContent = val;
-    })
 
