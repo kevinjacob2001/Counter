@@ -1,4 +1,4 @@
-//alert("Hello there! Welcome to Timer.kj. Here you can increment and decrement the digit to a particular value and initiate a count-down where value gets decremented by one every 0.5 seconds until the counter reaches 0. User can reset the value to an initial value which is set as 25.")
+alert("Hello there! Welcome to Timer.kj. Here you can increment and decrement the digit to a particular value and initiate a count-down where value gets decremented by one every 0.5 seconds until the counter reaches 0. User can reset the value to an initial value which is set as 25.")
 
 let val = document.getElementById("field").innerHTML;
 
