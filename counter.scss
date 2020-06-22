@@ -1,0 +1,61 @@
+* {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(
+    to right top,
+    #62799b,
+    #8650d6,
+    #694964,
+    #9c4068,
+    #dd4455
+  );
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #1e323d,
+    #3f6669,
+    #00bf72,
+    #343461
+  );
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #Increment,
+    #Decrement {
+      color: rgb(5, 2, 2);
+      padding: 15px;
+      border: 0px;
+      border-radius: 10px;
+      background: rgb(123, 123, 238);
+      margin: 30px;
+      font-size: 18px;
+    }
+  }
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #start,
+    #reset {
+      padding: 10px;
+      border: 0px;
+      border-radius: 10px;
+      background: rgb(142, 142, 197);
+      margin: 30px;
+      font-size: 17px;
+    }
+  }
+}
